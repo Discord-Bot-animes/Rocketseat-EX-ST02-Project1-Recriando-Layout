@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1,p,img,a{
+    text-align: center;
+}
+
+
+main{
+    width: 626px;
+    height: 486px;
+    margin: 64px auto;
+}
+
+main img{
+    width: 350px;
+    margin: 32px 138px;
+}
+
+main h1{
+    color: #3F3D56;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+main h1 span{
+    color: #EE24FF;
+    font-weight: 700;
+}
+
+main p {
+    color: #828282;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 146.667% */
+}
+
+main h1 + p{
+    margin-bottom: 32px;
+
+}
+
+
+main h1 + p + p{
+    margin-bottom: 64px;
+}
+
+main p span{
+    font-weight: 700;
+    color: #3F3D56;
+}
+
+.line{
+    margin: 0 auto;
+    width: 391px;
+    border: 1px solid #ECEFF2;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px auto;
+}
+
+footer strong{
+    margin: 21px;
+}
+
+footer strong a{
+    color: #3F3D56;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 147.682%; /* 22.152px */
+    text-decoration: none;
+}
+
+#wave img{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
